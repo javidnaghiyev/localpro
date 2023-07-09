@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import SignIn from './SignIn'
 
 const Navbar = () => {
   return (
@@ -14,12 +15,8 @@ const Navbar = () => {
 
         </div>
         <div>
-            <Link href='/'>
-                <Image 
-                    src='public/next.svg'
-                    width={30}
-                    height={30}
-                />
+            <Link href='/auth'>
+                Sign In
             </Link>
         </div>
     </nav>
